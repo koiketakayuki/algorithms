@@ -13,6 +13,7 @@ $(DIST)/%: %.o
 2: $(DIST)/2-binary-search
 3: $(DIST)/3-stack
 4: $(DIST)/4-queue
+5: $(DIST)/5-linked-list
 
 clean:
 	rm -f $(DIST)/*
